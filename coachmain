@@ -1,0 +1,11 @@
+# Official channel:
+python3 "${CLAUDE_PLUGIN_ROOT}/scripts/fetch_youtube.py" \
+  --channel <CHANNEL_URL> --max-videos 12 --out "DATA_DIR/<slug>"
+
+# No channel of their own — search long-form videos OF them across YouTube:
+python3 "${CLAUDE_PLUGIN_ROOT}/scripts/fetch_youtube.py" \
+  --search "<Name> interview" --max-videos 8 --out "DATA_DIR/<slug>"
+
+# Specific videos you found in Step 2 (podcasts, keynotes) — combinable with the above:
+python3 "${CLAUDE_PLUGIN_ROOT}/scripts/fetch_youtube.py" \
+  --videos <URL1> <URL2> --out "DATA_DIR/<slug>"
