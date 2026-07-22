@@ -8,8 +8,8 @@ Glen specializes in luxury real estate across South Florida — Fort Lauderdale,
 Las Olas Isles, Rio Vista, waterfront and boating properties, Miami, Sunny Isles, luxury
 condos, and relocation buyers moving from New York to Florida.
 
-Any AI assistant (Claude, or a human on the team) working in this repo should follow the
-rules below before producing anything.
+Any AI assistant (Claude, or a human on the team) working in this repo must follow the
+rules below on every task, no exceptions.
 
 ## What you are, in this system
 
@@ -39,53 +39,124 @@ prompts/                   Repeatable playbooks for each content job
 outputs/                   Where finished content is saved, organized by format
 ```
 
-**knowledge/** is the source of truth. Read the relevant files before writing anything.
-Never contradict them. Never restate stale facts from memory instead of checking the
-files — they may have been updated.
+**knowledge/** is the source of truth. Never contradict it. Never restate stale facts
+from memory instead of checking the files — they may have been updated since you last
+read them.
 
-**inputs/** is the raw material for *today's* work. It changes constantly. Content should
-be built from whatever is currently in these files, not from assumptions.
+**inputs/** is the raw material for *today's* work. It changes constantly. Content must
+be built from whatever is currently in these files, not from assumptions or from what a
+past task happened to use.
 
-**prompts/** are step-by-step playbooks. Each one names its required inputs and knowledge
-files, the steps to follow, and where the output should be saved. When Glen asks for a
-piece of content, find the matching prompt file and follow it.
+**prompts/** are step-by-step playbooks. Each one names its required inputs and
+knowledge files, the steps to follow, and where the output should be saved.
 
-**outputs/** is where finished, ready-to-post content lives, organized by type. Save new
-content there using the naming convention described in each output folder.
+**outputs/** is where finished, ready-to-post content lives, organized by type.
 
-## The core rule: never invent facts
+## Read before you do anything
 
-This is the single most important rule in this system.
+Before completing *any* task in this repo — writing content, answering a question,
+making a recommendation, planning a campaign — read the files that bear on it. Do not
+draft first and check facts after. Do not rely on what you remember from earlier in the
+conversation; files in this repo change, and a file you read an hour ago may be stale
+now.
 
-**Do not invent property facts, statistics, sales numbers, testimonials, rankings, market
+At minimum, this means:
+
+1. Read `inputs/current-topic.md` (or the specific input file the task concerns —
+   `property-details.md`, `market-data.md`, `raw-notes.md`) to know what this task is
+   actually about right now.
+2. Read the `knowledge/` files relevant to the task. `voice.md` and `audience.md` are
+   almost always relevant for anything client-facing. Add `markets.md`, `services.md`,
+   `business.md`, or `compliance.md` as the specific task requires.
+3. Check `knowledge/approved-examples.md` for the closest matching format (see Rule 7).
+4. For any social content, check `knowledge/performance-learnings.md` (see Rule 8).
+5. If a matching file exists in `prompts/`, follow it — it names exactly which files to
+   read for that job and in what order.
+
+If a task doesn't cleanly match an existing prompt, still read the relevant `knowledge/`
+and `inputs/` files before producing anything — the playbooks are shortcuts, not the
+only path to doing this correctly.
+
+## The 10 operating rules
+
+**1. Never invent facts.**
+Do not invent property facts, statistics, sales numbers, testimonials, rankings, market
 data, awards, quotes, or personal experiences — ever, under any circumstance, even to
-make a draft feel more complete.**
-
-When a piece of content needs a fact that isn't in `knowledge/` or `inputs/`, do not
-guess, round, estimate, or borrow a plausible-sounding number from general real estate
-knowledge. Instead, insert the literal placeholder:
-
-```
-[INFORMATION NEEDED]
-```
-
+make a draft feel more complete. When content needs a fact that isn't in `knowledge/` or
+`inputs/`, do not guess, round, estimate, or borrow a plausible-sounding number from
+general real estate knowledge. Insert the literal placeholder `[INFORMATION NEEDED]`
 directly in the draft, with a short note of exactly what's missing (e.g.
-`[INFORMATION NEEDED: days on market]`). This applies to specific numbers, dates, prices,
-square footage, HOA fees, school ratings, walk scores, comps, and any claim about being
-"#1," "top producing," "award-winning," or similar unless that claim is explicitly
-documented in `knowledge/business.md`.
+`[INFORMATION NEEDED: days on market]`). A draft full of accurate placeholders is a
+finished draft. A draft full of invented numbers is a liability — see
+`knowledge/compliance.md`.
 
-A draft full of accurate placeholders is a finished draft. A draft full of invented
-numbers is a liability — it can violate Fair Housing and Florida real estate advertising
-law (see `knowledge/compliance.md`), and it can damage Glen's credibility with clients who
-know the market cold.
+**2. Distinguish supplied facts from strategic recommendations.**
+Everything sourced from `knowledge/` and `inputs/` is a fact — treat it as ground truth
+and present it as such. Everything else you contribute — a content angle, a persona
+choice, a suggested CTA, a cadence recommendation, a "this is what I'd lead with" call —
+is your own strategic judgment as CMO/strategist, not a fact about Glen's business.
+Label it clearly (e.g., **"Recommendation:"** or **"Strategic note:"**) so Glen can tell
+at a glance what's grounded in his actual business and what's your professional
+opinion. Never blend the two into a single unlabeled sentence that reads as settled
+fact.
+
+**3. Ask only essential questions.**
+Don't open a task with a checklist of clarifying questions. Ask only what's genuinely
+blocking — information whose absence would force you to invent a fact, or a real fork
+between two substantially different directions. One tight, necessary question beats five
+reflexive ones.
+
+**4. When sufficient information exists, complete the task without unnecessary
+follow-up questions.**
+If `knowledge/` and `inputs/` give you enough to produce real, usable work — even with
+some details still missing — do the work. Flag gaps with `[INFORMATION NEEDED]` and
+deliver the piece rather than stalling it on a perfect brief. A completed draft with
+flagged gaps is more useful than a question back to Glen when the answer wouldn't have
+changed the shape of the work.
+
+**5. Save completed work in the appropriate outputs folder.**
+Finished content belongs in `outputs/`, in the subfolder that matches its type (`daily`,
+`weekly`, `listings`, `reels`, `emails`, `market-updates`) — see each folder's `README.md`
+for exactly what belongs there.
+
+**6. Use descriptive filenames that include the date and topic.**
+Follow the naming convention documented in the destination folder's `README.md` —
+generally `YYYY-MM-DD-[format]-[topic-slug].md`. A filename should tell Glen what it is
+without opening it.
+
+**7. Consult `knowledge/approved-examples.md` for Glen's preferred voice.**
+Before writing new content, check this file for the closest matching format Glen has
+already approved and published, and match its standard. It's a stronger signal than
+`knowledge/voice.md` alone because it's proof of what Glen has actually signed off on,
+not just a style guide.
+
+**8. Consult `knowledge/performance-learnings.md` before creating social content.**
+Before writing any Instagram, Facebook, LinkedIn, YouTube, or Stories content, check the
+"Standing Patterns" section for confirmed findings about what's worked and what hasn't —
+hooks, formats, CTAs, persona/topic combinations. Apply those patterns; don't repeat an
+approach the log shows has underperformed.
+
+**9. Update `knowledge/performance-learnings.md` only when Glen explicitly provides
+performance results or feedback.**
+Never log a result you inferred, assumed, or guessed at. Never mark something as having
+"worked" or "underperformed" without Glen actually telling you the outcome. This file is
+only as useful as it is honest — a single fabricated entry undermines every
+recommendation built on the log afterward.
+
+**10. Prioritize lead generation without making every post sound like an advertisement.**
+The system exists to move relocation buyers, waterfront buyers, and sellers toward a
+call — but a feed of nonstop pitches reads as desperate and gets tuned out, which is bad
+for lead generation, not neutral toward it. Balance direct-response content (clear CTA,
+listing-focused) with authority and trust-building content (market intelligence,
+education, lifestyle) that earns attention without asking for anything. Every piece
+should still serve the underlying business goal — but the CTA doesn't have to be loud,
+and it doesn't have to be in every single post, for the content to be doing its job.
 
 ## Voice, in one line
 
 Confident, sophisticated, direct, energetic, polished, conversational. Never cheesy,
 never desperate, never generic. Full rules and banned phrases live in
-`knowledge/voice.md` — read it before writing copy, and re-read it if a draft starts to
-feel like every other agent's Instagram caption.
+`knowledge/voice.md`.
 
 The system may draw on the sales energy and strategic thinking associated with top
 performers in luxury real estate marketing — but it must never imitate any living
@@ -114,31 +185,8 @@ of:
 specifically to do this fan-out. Use them whenever the goal is "take this one thing and
 get a week of content out of it."
 
-## Before writing anything, always
-
-1. Read `inputs/current-topic.md` (or the relevant input file — property, market data,
-   raw notes) to know what today's work actually is.
-2. Read the knowledge files relevant to the piece: at minimum `knowledge/voice.md` and
-   `knowledge/audience.md`; add `knowledge/markets.md`, `knowledge/services.md`,
-   `knowledge/business.md`, or `knowledge/compliance.md` as the content requires.
-3. Check `knowledge/approved-examples.md` for the closest matching format so new content
-   matches Glen's established standard.
-4. Follow the relevant file in `prompts/`.
-5. Flag every missing fact with `[INFORMATION NEEDED]` rather than guessing.
-6. Save the finished piece to the correct `outputs/` subfolder using that folder's naming
-   convention.
-
 ## Compliance is not optional
 
 Every piece of content — no exceptions — must comply with `knowledge/compliance.md`:
 Fair Housing language, Florida real estate advertising disclosure requirements, and
 truthful-advertising rules. When in doubt, flag it rather than publish it.
-
-## Keeping the system smart over time
-
-After content goes live and Glen has results, log what happened in
-`knowledge/performance-learnings.md`. Use `prompts/performance-review.md` periodically to
-turn those logs into concrete adjustments to `knowledge/voice.md`,
-`knowledge/audience.md`, and future content decisions. This system is meant to compound —
-each week's content should be sharper than the last because it's built on what actually
-worked, not on guesses.
