@@ -7,13 +7,13 @@ in every `[INFORMATION NEEDED]` field for the system to reach full accuracy.
 ## Contact & Affiliation
 
 - **Full name:** Glen Primak
-- **Brokerage name:** [INFORMATION NEEDED]
+- **Brokerage name:** SERHANT.
 - **Brokerage address:** [INFORMATION NEEDED]
-- **Florida real estate license #:** [INFORMATION NEEDED]
-- **Phone:** [INFORMATION NEEDED]
-- **Email:** glen.primak@theagencyre.com
-- **Website:** [INFORMATION NEEDED]
-- **Instagram:** [INFORMATION NEEDED]
+- **Florida real estate license #:** SL3495809
+- **Phone:** 954-995-9958 (cell)
+- **Email:** glen@serhant.com
+- **Website:** www.glenprimak.com
+- **Instagram:** www.instagram.com/glenprimak
 - **Facebook:** [INFORMATION NEEDED]
 - **LinkedIn:** [INFORMATION NEEDED]
 - **YouTube:** [INFORMATION NEEDED]
@@ -25,14 +25,21 @@ Use this exact block at the end of client-facing content unless a prompt says ot
 Populate it once, then reuse everywhere for consistency:
 
 ```
-[INFORMATION NEEDED: finalized sign-off block — name, title, brokerage, phone, email,
-license disclosure per knowledge/compliance.md]
+Glen Primak
+SERHANT.
+954-995-9958
+glen@serhant.com
+www.glenprimak.com
+Lic. #SL3495809
+
+[INFORMATION NEEDED: exact required Florida brokerage-disclosure wording per FREC —
+confirm with your broker/compliance contact per knowledge/compliance.md, then replace
+this line]
 ```
 
 ## Team
 
-- **Structure:** [INFORMATION NEEDED — solo agent, team lead, or team with named
-  members/roles]
+- **Structure:** Solo agent (no team, for now).
 - **Support staff relevant to content (photographer, videographer, stager, transaction
   coordinator):** [INFORMATION NEEDED]
 
@@ -42,7 +49,9 @@ Only populate this section with numbers Glen can verify and stand behind — thi
 one file where a fabricated number causes the most damage, since content will cite it
 directly.
 
-- **Years active in South Florida luxury real estate:** [INFORMATION NEEDED]
+- **Years active in South Florida luxury real estate:** Licensed since 2016 (~10 years
+  as of 2026 — recalculate from 2016 rather than treating "10 years" as a fixed number
+  going forward).
 - **Total career sales volume:** [INFORMATION NEEDED]
 - **Notable closed transactions (address/price only with seller's/buyer's consent to
   publicize):** [INFORMATION NEEDED]
@@ -56,24 +65,39 @@ directly.
 What the content engine should actually be optimizing for right now. Update this
 quarterly so `prompts/` stay aimed at the right outcome.
 
-- **Primary goal this quarter:** [INFORMATION NEEDED — e.g., build relocation-buyer lead
-  pipeline, win more listings in Las Olas Isles, grow email list]
-- **Secondary goal:** [INFORMATION NEEDED]
-- **Target audience priority for this period:** [INFORMATION NEEDED — see
-  `knowledge/audience.md` for full persona definitions]
+- **Primary goal this quarter:** Win more listings — particularly single-family luxury
+  waterfront, with Las Olas Isles as the core niche and the broader corridor running
+  from Boca Raton to Miami.
+- **Secondary goal:** Develop high-net-worth (HNW) buyer relationships and pipeline.
+- **Target audience priority for this period:** HNW buyers and luxury waterfront
+  sellers — see `knowledge/audience.md` (Waterfront/Boating Lifestyle Buyer and
+  Investor/Second-Home Buyer personas are the closest current match; content should
+  lean toward these over the other personas for now).
 - **Active listings to prioritize in content:** see `inputs/property-details.md`
-- **Content cadence target:** [INFORMATION NEEDED — e.g., daily Instagram, weekly email,
-  2x/week LinkedIn]
+- **Content cadence target:** Instagram 3–4x/week, LinkedIn weekly, email newsletter
+  monthly. (Facebook, YouTube, and other channel cadences not yet specified —
+  `[INFORMATION NEEDED]` if/when those become active.)
 
 ## Price Point & Deal Profile
 
 Used to calibrate tone (a $2M condo and a $20M estate are both "luxury" but read
 differently).
 
-- **Typical listing price range:** [INFORMATION NEEDED]
+- **Public brand positioning:** Glen wants general/lifestyle content to project a
+  $5M–$10M+ price tier — that's the image the brand should carry.
+- **Actual listing floor:** Glen will in fact take listings starting at $1.5M+. This is
+  intentional positioning, not a contradiction: content strategy should skew toward the
+  $5M–$10M+ image to attract the right caliber of attention, while the business itself
+  stays open to a wider range.
+- **Note for content generation:** this positioning applies to brand-level and
+  lifestyle content only. It never overrides a specific listing's actual facts — a
+  $1.8M listing's description, price, and marketing must always reflect that listing
+  accurately per `knowledge/compliance.md`. Never imply a specific property is priced
+  higher than `inputs/property-details.md` states.
 - **Typical buyer price range:** [INFORMATION NEEDED]
-- **Property types most commonly handled:** [INFORMATION NEEDED — e.g., waterfront
-  single-family, new construction, high-rise condo, historic Rio Vista homes]
+- **Property types most commonly handled:** Single-family luxury waterfront homes,
+  primarily along the corridor from Boca Raton to Miami, with Las Olas Isles as the
+  core niche.
 
 ## Legal / Business Entity Notes
 
