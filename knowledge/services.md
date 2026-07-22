@@ -18,25 +18,47 @@ before content references these services in specific detail.
 
 ## Seller / Listing Representation
 
-- **Listing marketing program:** [INFORMATION NEEDED — professional photography,
-  videography/reels, drone, 3D/Matterport tours, print collateral, PR/press outreach,
-  targeted digital ad campaigns, email blast to buyer database, MLS and syndication,
-  agent-to-agent network outreach]
-- **Pricing strategy process:** [INFORMATION NEEDED — how Glen determines list price:
-  CMA process, pricing philosophy]
+- **Listing marketing program:** Professional photography, videography/Reels, drone
+  footage, 3D/Matterport tours, print collateral, PR/press outreach, targeted digital ad
+  campaigns, email blast to Glen's buyer database, MLS and syndication, and
+  agent-to-agent network outreach — used on every listing.
+- **Pricing strategy process:** Glen prices a listing by first assessing current
+  available inventory, then identifying the most comparable recently sold properties,
+  then comparing those comps directly to the subject property to arrive at a price.
 - **Staging / presentation guidance:** [INFORMATION NEEDED]
-- **Negotiation approach:** [INFORMATION NEEDED]
-- **Off-market / pocket listing network:** [INFORMATION NEEDED — does Glen have one, and
-  how does it work]
+- **Negotiation approach:** Glen enjoys negotiating and sets realistic expectations with
+  clients up front — he always makes sure a realistic price is on the table. Within
+  that, he generally lets the client choose where they want to start (as long as it's
+  realistic), unless he believes that starting point won't draw a counteroffer, or
+  unless the client asks him directly where to start — in either case, he'll give a
+  specific recommendation.
+- **Off-market / pocket listing network:** Yes — Glen has a VIP group of agents,
+  clients, and associates that every off-market listing gets run by before (or
+  alongside) going to the broader market.
 
 ## Relocation Services (NY to FL Specialty)
 
-- **Area orientation:** [INFORMATION NEEDED — does Glen offer in-person or virtual area
-  tours for relocating buyers before they commit?]
+The relocation advantage is primarily advisory and experiential, not a formal
+structured service. Most of Glen's luxury/HNW buyers have already made many real
+estate purchases and understand the transaction process well — what they don't have is
+a real feel for the area. Because Glen relocated to South Florida himself, he can speak
+to what it's actually like living here from an outsider's perspective, which lands
+differently than advice from someone who's lived here their whole life and can't relate
+to what the move itself involves.
+
+- **Area orientation:** Not a formal tour product — the value is Glen's own firsthand,
+  outsider-to-insider perspective on what the area is actually like, shared directly in
+  conversation and content.
+  - **Example (Glen's own words):** Someone relocating from a major food-scene city
+    (Glen moved from Philadelphia; the same applies to NYC transplants) may find Fort
+    Lauderdale's food scene underwhelming by comparison — while a lifelong local, with
+    no other city to compare it to, might think it's the best food scene around. A
+    local-their-whole-life agent can't offer that comparison; Glen can, because he's
+    made the same kind of move his relocation clients are making.
 - **Vendor network:** [INFORMATION NEEDED — moving companies, FL-licensed attorneys, tax
-  advisors, insurance brokers Glen refers]
+  advisors, insurance brokers Glen refers, if any]
 - **Timing coordination:** [INFORMATION NEEDED — how Glen helps coordinate a NY sale
-  with a FL purchase, bridge financing referrals, etc.]
+  with a FL purchase, bridge financing referrals, etc., if applicable]
 
 ## Market Advisory
 
@@ -46,8 +68,9 @@ before content references these services in specific detail.
 
 ## Service Area
 
-Primary: Fort Lauderdale, Las Olas, Las Olas Isles, Rio Vista, waterfront South Florida,
-Miami, Sunny Isles.
+Primary: single-family luxury waterfront homes along the corridor from Boca Raton to
+Miami, with Las Olas Isles as the core niche. Also Fort Lauderdale, Las Olas, Rio Vista,
+Sunny Isles, and luxury condos more broadly.
 
 Additional areas served, if any: [INFORMATION NEEDED]
 
