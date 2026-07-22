@@ -60,6 +60,21 @@ Olas Isles, Rio Vista, and other canal-front South Florida communities.
 marine contractor and seawall considerations, boat-to-restaurant day-in-the-life content,
 insurance/flood-zone education (facts only, sourced).
 
+## Boca Raton (and the Boca–Miami Waterfront Corridor)
+
+**Positioning:** The northern anchor of Glen's core single-family luxury waterfront
+corridor, which runs from Boca Raton down through Fort Lauderdale to Miami. Las Olas
+Isles is the flagship niche within this corridor, but the broader waterfront single-
+family market along this stretch is Glen's primary current business focus.
+
+**Content angles:** cross-corridor comparisons (Boca vs. Fort Lauderdale vs. Miami
+waterfront), what distinguishes single-family waterfront product at each point along
+the corridor, content aimed at HNW buyers comparing multiple South Florida waterfront
+markets rather than a single city.
+
+**Data to source from `inputs/market-data.md` before citing:** median sale price,
+active inventory, days on market — [INFORMATION NEEDED per current cycle].
+
 ## Miami
 
 **Positioning:** The broader luxury and international-buyer market anchor — condo towers,
