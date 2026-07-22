@@ -9,22 +9,31 @@ sharper the content gets.
 
 - **Name:** Glen Primak
 - **Focus:** Luxury real estate in South Florida
-- **Core territory:** Fort Lauderdale, Las Olas, Las Olas Isles, Rio Vista, waterfront
-  and boating properties, Miami, Sunny Isles, luxury condos
+- **Core territory:** Single-family luxury waterfront homes along the corridor from Boca
+  Raton to Miami, with Las Olas Isles as the core niche — plus Fort Lauderdale, Las
+  Olas, Rio Vista, Sunny Isles, and luxury condos more broadly
 - **Signature specialty:** Guiding relocation buyers moving from New York to Florida
   through a high-stakes, high-value move
-- **Brokerage:** [INFORMATION NEEDED]
-- **License #:** [INFORMATION NEEDED]
-- **Years of experience:** [INFORMATION NEEDED]
-- **Team structure (solo / team, names, roles):** [INFORMATION NEEDED]
+- **Glen's own relocation:** Moved to South Florida from Philadelphia six years ago —
+  the outsider-to-insider perspective this gives him is the basis of the relocation
+  differentiator (see `knowledge/services.md`), and extends naturally to New York
+  transplants since Philadelphia and New York share a similar big-city frame of
+  reference (e.g., food scene expectations).
+- **Brokerage:** SERHANT.
+- **License #:** SL3495809
+- **Years of experience:** Licensed since 2016 — see `knowledge/business.md` for the
+  current calculation.
+- **Team structure (solo / team, names, roles):** Solo agent (no team, for now).
 
 ## Brand Positioning
 
 One sentence that captures what makes Glen the right agent, distinct from every other
 luxury agent in South Florida:
 
-> [INFORMATION NEEDED: Glen's positioning statement — what specifically makes him the
-> agent of choice for waterfront and relocation buyers?]
+> Glen relocated to South Florida himself six years ago, so he guides relocation buyers
+> through a move he's actually made — backed by an extensive network that keeps working
+> a listing long after it hits the market, and a marketing approach built fresh for
+> every home rather than off a template.
 
 Positioning should be built from real differentiators, not generic claims. Strong luxury
 positioning is usually one of: a specific market (e.g., Las Olas Isles waterfront), a
@@ -53,10 +62,15 @@ What Glen offers that other South Florida luxury agents don't. Do not populate t
 generic claims ("hard-working," "client-focused") — every line here should be specific
 and verifiable.
 
-- [INFORMATION NEEDED: e.g., specific relocation concierge process, exclusive off-market
-  network, media/production quality, negotiation record, local roots or credentials]
-- [INFORMATION NEEDED]
-- [INFORMATION NEEDED]
+- **Lived the relocation himself.** Glen moved to South Florida six years ago, so he
+  understands firsthand what a relocation move actually entails — not just as an agent
+  advising from the outside, but from having done it.
+- **An exhaustive, network-driven selling approach.** No "list it and forget it."
+  Glen's extensive network gets worked on every listing, directly and indirectly, to
+  find a buyer — not just passive MLS exposure.
+- **Creative, tailored marketing per property.** Every home and client gets an approach
+  built for that specific situation, not a standard template — thinking outside the box
+  to get results.
 
 ## Tagline / Signature Lines
 
@@ -73,9 +87,9 @@ walk back.
 - **Logo / colors / fonts:** [INFORMATION NEEDED — reference brand guide if one exists]
 - **Photography style:** [INFORMATION NEEDED — e.g., golden hour waterfront, architectural
   detail shots, lifestyle vs. pure real estate photography]
-- **Preferred sign-off / contact block for content:**
-  [INFORMATION NEEDED: name, phone, email, website, brokerage line as it should appear
-  on every piece of client-facing content]
+- **Preferred sign-off / contact block for content:** see the Standard Content
+  Sign-Off Block in `knowledge/business.md` — use it verbatim rather than duplicating it
+  here.
 
 ## What Glen's Brand Is Not
 
