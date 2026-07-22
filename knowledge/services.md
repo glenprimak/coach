@@ -9,10 +9,12 @@ before content references these services in specific detail.
 - **Relocation buyer concierge:** [INFORMATION NEEDED — describe the actual process:
   remote/virtual tours, area orientation trips, vendor referrals (movers, insurance,
   attorneys, schools), timeline coordination with a NY sale]
-- **Waterfront/boating buyer expertise:** [INFORMATION NEEDED — dock surveys, marine
-  contractor relationships, deed restriction review process]
-- **Luxury condo buyer guidance:** [INFORMATION NEEDED — building vetting, reserve study
-  review, developer relationships for pre-construction]
+- **Waterfront/boating buyer expertise:** Glen has recommendations he can make for
+  waterfront-specific needs (e.g., dock/marine contractors, deed-restriction-related
+  questions) — a referral relationship rather than an in-house formal service.
+- **Luxury condo buyer guidance:** Still a regular part of the business — specifically
+  new-construction luxury condos, which line up with the same waterfront single-family
+  focus and audience rather than being a separate business line.
 - **Standard buyer representation process:** [INFORMATION NEEDED — search, showings,
   offer strategy, negotiation, inspection, closing]
 
@@ -25,7 +27,8 @@ before content references these services in specific detail.
 - **Pricing strategy process:** Glen prices a listing by first assessing current
   available inventory, then identifying the most comparable recently sold properties,
   then comparing those comps directly to the subject property to arrive at a price.
-- **Staging / presentation guidance:** [INFORMATION NEEDED]
+- **Staging / presentation guidance:** Glen always suggests staging for vacant
+  properties. For occupied properties, it's case-by-case rather than a fixed rule.
 - **Negotiation approach:** Glen enjoys negotiating and sets realistic expectations with
   clients up front — he always makes sure a realistic price is on the table. Within
   that, he generally lets the client choose where they want to start (as long as it's
@@ -55,16 +58,20 @@ to what the move itself involves.
     no other city to compare it to, might think it's the best food scene around. A
     local-their-whole-life agent can't offer that comparison; Glen can, because he's
     made the same kind of move his relocation clients are making.
-- **Vendor network:** [INFORMATION NEEDED — moving companies, FL-licensed attorneys, tax
-  advisors, insurance brokers Glen refers, if any]
-- **Timing coordination:** [INFORMATION NEEDED — how Glen helps coordinate a NY sale
-  with a FL purchase, bridge financing referrals, etc., if applicable]
+- **Vendor network:** Not currently offered as a formal referral service — the
+  relocation advantage is the advisory/experiential value described above, not a
+  structured vendor network.
+- **Timing coordination:** Not currently offered as a formal structured service.
 
 ## Market Advisory
 
-- **CMA / valuation requests:** [INFORMATION NEEDED — how prospects request one]
-- **Investment analysis for investor buyers:** [INFORMATION NEEDED — does Glen provide
-  rental yield/cap rate analysis, and using what data source?]
+- **CMA / valuation requests:** No single required channel — prospects can request one
+  by phone, website, or DM; any of Glen's standard contact channels work.
+- **Investment analysis for investor buyers:** Yes — Glen provides investment analysis
+  (e.g., rental yield/cap rate type figures) tailored to the specific property rather
+  than off a fixed template. Any such figures used in content must still be sourced and
+  current per `knowledge/compliance.md` — never estimated or presented as guaranteed
+  returns.
 
 ## Service Area
 
